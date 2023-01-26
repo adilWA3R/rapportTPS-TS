@@ -140,3 +140,11 @@ legend("G : wc=50","G1 : wc=500","G2 : wc=1000")
        plot(fshift,fftshift(2*abs(fft(filter_temp)/N)));
        legend("spectre de phase apres filtrage avec H1 fc=500");
 legend("Signal non filtré","Signal filtré")
+![tp4_1](https://user-images.githubusercontent.com/105556070/214941838-03eadc7e-04b2-48da-a7c5-18872b39774b.png)
+
+![TP4-2](https://user-images.githubusercontent.com/105556070/214942091-7187e2fa-374a-460b-956f-a24aa18d4437.png)
+
+![TP4-3](https://user-images.githubusercontent.com/105556070/214942146-5aa86d54-bb59-49fc-97fa-5466ceb35f41.png)
+
+
+
