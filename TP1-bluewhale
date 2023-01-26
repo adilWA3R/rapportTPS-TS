@@ -46,6 +46,7 @@ xlabel("Fréquence (Hz)");
 ylabel("A");
 
 
+
 subplot(2,3,3)
 f = (0:floor(taille/2))*(fs/taille)/10;
 plot(f,Densite_spectrale_chant(1:floor(taille/2)+1));
