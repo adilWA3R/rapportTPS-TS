@@ -1,7 +1,7 @@
 clear all 
 close all
 clc
-
+%réalisé par Adil El Idrissi
 
 [x,fs] = audioread("bluewhale.au");
 
@@ -17,7 +17,7 @@ T = (0:Taille-1)*(10*ts);
 fshift2 = (-Taille/2:Taille/2-1)*(fs/Taille);
 
 
-% la transformation de fourier rapide sur le chant 
+%tansformation de fourier rapide sur le chant 
 Schant = fft(chant);
 %Densité spectrale du Chant
 Densite_spectrale_chant = abs(Schant).^2/taille;
